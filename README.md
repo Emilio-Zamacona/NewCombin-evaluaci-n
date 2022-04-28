@@ -1,4 +1,4 @@
-# newcombin-challende
+# newcombin-challenge
 
 ## Project setup
 ```
