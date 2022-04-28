@@ -61,7 +61,6 @@ export default {
         address: '',
         ssn: ''
       },
-      noSubmit: false,
       validatedFields: [],
       disableSubmit: true,
       warning: [],
@@ -85,6 +84,7 @@ export default {
       }
       this.validatedFields = []
       this.resetWarning()
+      this.disableSubmit = true
     },
     resetWarning () {
       this.warning = []
